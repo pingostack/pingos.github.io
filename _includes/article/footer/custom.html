@@ -1,0 +1,20 @@
+<!-- start custom article footer snippet -->
+
+{% assign _root_path = page.path | slice: 0, 5 %}
+{% assign _lang = page.lang | slice: 0, 2 %}
+  {%- if _lang == 'zh' -%}
+    <div class="article__content my-3">
+      <hr />
+        <a style="vertical-align: text-bottom;" href="https://github.com/pingostack/pingos/"><img src="https://img.shields.io/github/stars/pingostack/pingos.svg?label=Stars&style=social" alt="给该项目点赞" /></a>
+        &nbsp;
+        <a style="vertical-align: text-bottom;"  href="https://github.com/im-pingo/"><img src="https://img.shields.io/github/followers/im-pingo.svg?label=Follow&style=social" alt="关注我的 Github" /></a>
+    </div>
+  {%- else -%}
+  <div class="article__content my-3">
+    <hr />
+      <a style="vertical-align: text-bottom;" href="https://github.com/pingostack/pingos/"><img src="https://img.shields.io/github/stars/pingostack/pingos.svg?label=Stars&style=social" alt="给该项目点赞" /></a>
+      &nbsp;
+      <a style="vertical-align: text-bottom;"  href="https://github.com/im-pingo/"><img src="https://img.shields.io/github/followers/im-pingo.svg?label=Follow&style=social" alt="关注我的 Github" /></a>
+  </div>
+  {%- endif -%}
+<!-- end custom article footer snippet -->

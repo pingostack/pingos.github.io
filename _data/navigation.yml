@@ -1,0 +1,112 @@
+header:
+  - titles:
+      # @start locale config
+      en      : &EN       Home
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      zh-Hans : &ZH_HANS   首页
+      zh      : *ZH_HANS
+      zh-CN   : *ZH_HANS
+      zh-SG   : *ZH_HANS
+      zh-Hant : &ZH_HANT  首頁
+      zh-TW   : *ZH_HANT
+      zh-HK   : *ZH_HANT
+      # @end locale config
+    url:        /blog
+
+  - titles:
+      # @start locale config
+      en      : &EN       Docs
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      zh-Hans : &ZH_HANS  文档
+      zh      : *ZH_HANS
+      zh-CN   : *ZH_HANS
+      zh-SG   : *ZH_HANS
+      zh-Hant : &ZH_HANT  文檔
+      zh-TW   : *ZH_HANT
+      zh-HK   : *ZH_HANT
+      # @end locale config
+    url:        /docs/zh/quick-start
+    key:        docs
+
+  - titles:
+      # @start locale config
+      en      : &EN       Blog
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      zh-Hans : &ZH_HANS  博客
+      zh      : *ZH_HANS
+      zh-CN   : *ZH_HANS
+      zh-SG   : *ZH_HANS
+      zh-Hant : &ZH_HANT  博客
+      zh-TW   : *ZH_HANT
+      zh-HK   : *ZH_HANT
+      # @end locale config
+    url:        /blog
+    key:        blog
+
+  - titles:
+      # @start locale config
+      en      : &EN       archive
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      zh-Hans : &ZH_HANS  归档
+      zh      : *ZH_HANS
+      zh-CN   : *ZH_HANS
+      zh-SG   : *ZH_HANS
+      zh-Hant : &ZH_HANT  歸檔
+      zh-TW   : *ZH_HANT
+      zh-HK   : *ZH_HANT
+      # @end locale config
+    url:        /archive.html
+  - titles:
+      # @start locale config
+      en      : &EN       About
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      zh-Hans : &ZH_HANS  关于
+      zh      : *ZH_HANS
+      zh-CN   : *ZH_HANS
+      zh-SG   : *ZH_HANS
+      zh-Hant : &ZH_HANT  關於
+      zh-TW   : *ZH_HANT
+      zh-HK   : *ZH_HANT
+      # @end locale config
+    url:        /about.html
+  - title:      GitHub
+    url:        https://github.com/pingostack
+
+docs-en:
+  - title:      Languages
+    children:
+      - title:  中文
+        url:    /docs/zh/quick-start
+
+docs-zh:
+  - title:      开始
+    children:
+      - title:  快速开始
+        url:    /docs/zh/quick-start
+      - title:  配置模板
+        url:    /docs/zh/config-template
+#      - title:  目录说明
+#        url:    /docs/zh/dir-desc
+  - title:      配置
+    children:
+      - title:  通用配置
+        url:    /docs/zh/config
+#  - title:      其他语言
+#    children:
+#      - title:  English
+#        url:    /docs/en/quick-start
