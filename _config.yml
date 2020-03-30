@@ -133,7 +133,7 @@ comments:
     clientID    : 4ff3a191ff8d36a239cf
     clientSecret: 44aef716d558fa965914bd8e9862986ae98be6e0
     repository  : pingostack.github.io
-    owner       : im-pingo
+    owner       : pingostack
     admin:
       - im-pingo
 
