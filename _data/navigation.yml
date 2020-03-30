@@ -114,6 +114,8 @@ docs-zh:
         url:    /docs/zh/config-ts
       - title:  hls配置
         url:    /docs/zh/config-hls
+      - title:  hls+配置
+        url:    /docs/zh/config-hls-plus
       - title:  录像配置
         url:    /docs/zh/config-record
       - title:  通知接口配置
