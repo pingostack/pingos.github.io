@@ -105,7 +105,19 @@ docs-zh:
   - title:      配置
     children:
       - title:  通用配置
-        url:    /docs/zh/config
+        url:    /docs/zh/config-common
+      - title:  rtmp配置
+        url:    /docs/zh/config-rtmp
+      - title:  http-flv配置
+        url:    /docs/zh/config-flv
+      - title:  http-ts配置
+        url:    /docs/zh/config-ts
+      - title:  hls配置
+        url:    /docs/zh/config-hls
+      - title:  录像配置
+        url:    /docs/zh/config-record
+      - title:  通知接口配置
+        url:    /docs/zh/config-notify
 #  - title:      其他语言
 #    children:
 #      - title:  English
