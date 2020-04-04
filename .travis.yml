@@ -1,3 +1,4 @@
+
 language: ruby
 rvm:
 - 2.3.3
@@ -8,7 +9,7 @@ before_script:
 - chmod 600 ~/.ssh/id_rsa
 - echo -e "Host 35.220.143.170\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
 ​
-install: ture
+install: 
 ​
 script: jekyll build #&& htmlproofer ./_site
 ​
