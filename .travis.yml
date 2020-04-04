@@ -13,7 +13,9 @@ install:
 - gem install jekyll
 - gem install jekyll-paginate
 ​
-script: jekyll build #&& htmlproofer ./_site
+script:
+- bundle install
+- jekyll build #&& htmlproofer ./_site
 ​
 after_success:
   - ssh root@106.15.190.249 -p 22 -o StrictHostKeyChecking=no "git clone https://github.com/pingostack/pingostack.github.io.git"
