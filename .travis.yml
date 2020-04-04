@@ -18,7 +18,7 @@ script:
 - jekyll build #&& htmlproofer ./_site
 ​
 after_success:
-  - ssh root@106.15.190.249 -p 22 -o StrictHostKeyChecking=no "git clone https://github.com/pingostack/pingostack.github.io.git"
+  - ssh root@35.220.143.170 -p 22 -o StrictHostKeyChecking=no "git clone https://github.com/pingostack/pingostack.github.io.git"
 
 # branch whitelist, only for Github Pages
 branchs:
