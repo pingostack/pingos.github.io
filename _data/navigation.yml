@@ -97,29 +97,29 @@ docs-zh:
   - title:      开始
     children:
       - title:  快速开始
-        url:    /docs/zh/quick-start
+        url:    /docs/zh/quick-start.html
       - title:  配置模板
-        url:    /docs/zh/config-template
+        url:    /docs/zh/config-template.html
 #      - title:  目录说明
 #        url:    /docs/zh/dir-desc
   - title:      配置
     children:
       - title:  通用配置
-        url:    /docs/zh/config-common
+        url:    /docs/zh/config-common.html
       - title:  rtmp配置
-        url:    /docs/zh/config-rtmp
+        url:    /docs/zh/config-rtmp.html
       - title:  http-flv配置
-        url:    /docs/zh/config-flv
+        url:    /docs/zh/config-flv.html
       - title:  http-ts配置
-        url:    /docs/zh/config-ts
+        url:    /docs/zh/config-ts.html
       - title:  hls配置
-        url:    /docs/zh/config-hls
+        url:    /docs/zh/config-hls.html
       - title:  hls+配置
-        url:    /docs/zh/config-hls-plus
+        url:    /docs/zh/config-hls-plus.html
       - title:  录像配置
-        url:    /docs/zh/config-record
+        url:    /docs/zh/config-record.html
       - title:  通知接口配置
-        url:    /docs/zh/config-notify
+        url:    /docs/zh/config-notify.html
 #  - title:      其他语言
 #    children:
 #      - title:  English
