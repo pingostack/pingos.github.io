@@ -18,8 +18,8 @@ script:
 - jekyll build #&& htmlproofer ./_site
 ​
 after_success:
+  - ssh root@35.220.143.170 -p 22 -o StrictHostKeyChecking=no "rm -rf /data/www/pnigos.io"
   - scp -r _site root@35.220.143.170:/data/www/pingos.io
-  #- ssh root@35.220.143.170 -p 22 -o StrictHostKeyChecking=no ""
 
 # branch whitelist, only for Github Pages
 branchs:
