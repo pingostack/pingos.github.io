@@ -104,6 +104,8 @@ docs-zh:
 #        url:    /docs/zh/dir-desc
   - title:      配置
     children:
+      - title:  配置规则
+        url:    /docs/zh/config-guide.html
       - title:  通用配置
         url:    /docs/zh/config-common.html
       - title:  rtmp配置
@@ -120,6 +122,10 @@ docs-zh:
         url:    /docs/zh/config-record.html
       - title:  通知接口配置
         url:    /docs/zh/config-notify.html
+      - title:  定向拉流（回源）
+        url:    /docs/zh/config-dir-pull.html
+      - title:  定向转推
+        url:    /docs/zh/config-dir-push.html
 #  - title:      其他语言
 #    children:
 #      - title:  English
