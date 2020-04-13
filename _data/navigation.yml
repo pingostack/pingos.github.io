@@ -130,21 +130,21 @@ docs-zh:
         url:    /docs/zh/config-dir-pull
       - title:  定向转推
         url:    /docs/zh/config-dir-push
-  - title:      部署指南
-    children:
-      - title:  部署rtmp
-        url:    /docs/zh/delivery-rtmp
-      - title:  部署http-flv
-        url:    /docs/zh/delivery-http-flv
-      - title:  部署http-ts
-        url:    /docs/zh/delivery-http-ts
-      - title:  部署hls
-        url:    /docs/zh/delivery-hls
-      - title:  部署hls+
-        url:    /docs/zh/delivery-hls-plus
-      - title:  部署http
-        url:    /docs/zh/delivery-hls-plus
-  - title:      
+#  - title:      部署指南
+#    children:
+#      - title:  部署rtmp
+#        url:    /docs/zh/delivery-rtmp
+#      - title:  部署http-flv
+#        url:    /docs/zh/delivery-http-flv
+#      - title:  部署http-ts
+#        url:    /docs/zh/delivery-http-ts
+#      - title:  部署hls
+#        url:    /docs/zh/delivery-hls
+#      - title:  部署hls+
+#        url:    /docs/zh/delivery-hls-plus
+#      - title:  部署http
+#        url:    /docs/zh/delivery-hls-plus
+#  - title:      
 #  - title:      其他语言
 #    children:
 #      - title:  English
