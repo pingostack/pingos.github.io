@@ -14,7 +14,7 @@ header:
       zh-TW   : *ZH_HANT
       zh-HK   : *ZH_HANT
       # @end locale config
-    url:        /blog
+    url:        /
 
   - titles:
       # @start locale config
@@ -94,38 +94,57 @@ docs-en:
         url:    /docs/zh/quick-start
 
 docs-zh:
-  - title:      开始
+  - title:      用户指南
     children:
       - title:  快速开始
-        url:    /docs/zh/quick-start.html
-      - title:  配置模板
-        url:    /docs/zh/config-template.html
-#      - title:  目录说明
-#        url:    /docs/zh/dir-desc
-  - title:      配置
+        url:    /docs/zh/quick-start
+      - title:  项目介绍
+        url:    /docs/zh/milestones
+#      - title:  为什么选择PingOS
+#        url:    /docs/zh/why-pingos
+  - title:      详细配置
     children:
-      - title:  配置规则
-        url:    /docs/zh/config-guide.html
-      - title:  通用配置
-        url:    /docs/zh/config-common.html
+      - title:  配置引导
+        url:    /docs/zh/config-guide
+      - title:  核心配置
+        url:    /docs/zh/config-core
       - title:  rtmp配置
-        url:    /docs/zh/config-rtmp.html
+        url:    /docs/zh/config-rtmp
       - title:  http-flv配置
-        url:    /docs/zh/config-flv.html
+        url:    /docs/zh/config-flv
       - title:  http-ts配置
-        url:    /docs/zh/config-ts.html
+        url:    /docs/zh/config-ts
       - title:  hls配置
-        url:    /docs/zh/config-hls.html
+        url:    /docs/zh/config-hls
       - title:  hls+配置
-        url:    /docs/zh/config-hls-plus.html
+        url:    /docs/zh/config-hls-plus
       - title:  录像配置
-        url:    /docs/zh/config-record.html
-      - title:  通知接口配置
-        url:    /docs/zh/config-notify.html
+        url:    /docs/zh/config-record
+      - title:  事件通知
+        url:    /docs/zh/config-notify
+      - title:  变量配置
+        url:    /docs/zh/config-var
+      - title:  控制接口
+        url:    /docs/zh/config-control
       - title:  定向拉流（回源）
-        url:    /docs/zh/config-dir-pull.html
+        url:    /docs/zh/config-dir-pull
       - title:  定向转推
-        url:    /docs/zh/config-dir-push.html
+        url:    /docs/zh/config-dir-push
+  - title:      部署指南
+    children:
+      - title:  部署rtmp
+        url:    /docs/zh/delivery-rtmp
+      - title:  部署http-flv
+        url:    /docs/zh/delivery-http-flv
+      - title:  部署http-ts
+        url:    /docs/zh/delivery-http-ts
+      - title:  部署hls
+        url:    /docs/zh/delivery-hls
+      - title:  部署hls+
+        url:    /docs/zh/delivery-hls-plus
+      - title:  部署http
+        url:    /docs/zh/delivery-hls-plus
+  - title:      
 #  - title:      其他语言
 #    children:
 #      - title:  English

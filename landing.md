@@ -29,7 +29,7 @@ data:
   sections:
     - title: 100% Free
       theme: dark
-      excerpt: Free to use however you want under the BSD 2-Clause "Simplified" License. Clone it, fork it, customize it, whatever!
+      excerpt: Free to use however you want under the BSD 3 License. Clone it, fork it, customize it, whatever!
       actions:
         - text: '<i class="fab fa-github"></i> GitHub'
           type: outline-theme-dark
