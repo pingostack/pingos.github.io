@@ -130,6 +130,10 @@ docs-zh:
         url:    /docs/zh/config-dir-pull
       - title:  定向转推
         url:    /docs/zh/config-dir-push
+      - title:  动态DNS查询
+        url:    /docs/zh/config-dns
+      - title:  多进程模式
+        url:    /docs/zh/config-multiple-process
 #  - title:      部署指南
 #    children:
 #      - title:  部署rtmp
