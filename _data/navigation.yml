@@ -120,20 +120,22 @@ docs-zh:
         url:    /docs/zh/config-hls-plus
       - title:  录像配置
         url:    /docs/zh/config-record
-      - title:  事件通知
+      - title:  notify事件
         url:    /docs/zh/config-notify
       - title:  变量配置
         url:    /docs/zh/config-var
-      - title:  控制接口
+      - title:  控制台接口
         url:    /docs/zh/config-control
-      - title:  定向拉流（回源）
+      - title:  集群化配置（回源）
         url:    /docs/zh/config-dir-pull
-      - title:  定向转推
+      - title:  集群化配置（转推）
         url:    /docs/zh/config-dir-push
       - title:  动态DNS查询
         url:    /docs/zh/config-dns
       - title:  多进程模式
         url:    /docs/zh/config-multiple-process
+      - title:  exec任务进程
+        url:    /docs/zh/config-exec
 #  - title:      部署指南
 #    children:
 #      - title:  部署rtmp
