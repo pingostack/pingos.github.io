@@ -136,6 +136,8 @@ docs-zh:
         url:    /docs/zh/config-multiple-process
       - title:  exec任务进程
         url:    /docs/zh/config-exec
+      - title:  系统配置
+        url:    /docs/zh/config-system
 #  - title:      部署指南
 #    children:
 #      - title:  部署rtmp
