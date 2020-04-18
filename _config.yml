@@ -176,8 +176,8 @@ analytics:
 
   ## Google Analytics
   google:
-    tracking_id : UA-163868303-1 
-    anonymize_ip: true
+    tracking_id : UA-163868303-1
+    anonymize_ip: false
 
 
 ## => Build
