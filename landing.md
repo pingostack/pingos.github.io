@@ -17,7 +17,7 @@ article_header:
       url: /docs/zh/quick-start
     - text: Demo
       type: outline-theme-dark
-      url: http://player.pingos.io/flv/
+      url: /pingos-player
   height: 100vh
   theme: dark
   background_color: "#367a9a"
