@@ -54,7 +54,7 @@ header:
 
   - titles:
       # @start locale config
-      en      : &EN       archive
+      en      : &EN       Archive
       en-GB   : *EN
       en-US   : *EN
       en-CA   : *EN
@@ -138,6 +138,16 @@ docs-zh:
         url:    /docs/zh/config-exec
       - title:  系统配置
         url:    /docs/zh/config-system
+  - title:      常见问题
+    children:
+      - title:  如何支持H265编码
+        url:    /docs/zh/qa-h265
+      - title:  如何降低直播延时
+        url:    /docs/zh/qa-lowlatency
+      - title:  如何降低HLS直播延时
+        url:    /docs/zh/qa-hls-lowlatency
+      - title:  如何支持拉取rtsp源
+        url:    /docs/zh/qa-rtsp
 #  - title:      部署指南
 #    children:
 #      - title:  部署rtmp

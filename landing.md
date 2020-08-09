@@ -6,18 +6,21 @@ header:
   background: rgba(57, 97, 120, .8)
 
 excerpt: >
-  这是一个功能丰富的开源媒体服务器项目，支持多种媒体协议，支持集群化部署以及丰富的业务开发接口。
+  This is a feature-rich open source media server project that supports a variety of media protocols, clustered deployments, and rich business development interfaces
 
 permalink: /index.html
 
 article_header:
   actions:
-    - text: Quick Start
+    - text: Getting Started
       type: error
       url: /docs/zh/quick-start
     - text: Demo
       type: outline-theme-dark
       url: /pingos-player
+    - text: '<i class="fab fa-github"></i> GitHub'
+      type: outline-theme-dark
+      url: https://github.com/pingostack
   height: 100vh
   theme: dark
   background_color: "#367a9a"
